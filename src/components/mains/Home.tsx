@@ -4,7 +4,10 @@ const MainContainer = styled.main`
     display: flex;
     flex-direction: column;
     width:70%;
-    height: 83vh;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    min-height: 90vh;
     @media (max-width: 900px) {
         width: 100%;
         height: 100%;

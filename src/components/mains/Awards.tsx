@@ -10,6 +10,8 @@ const AwardsBox = styled.div`
     border: 1px solid #4d2600;
     justify-content: center;
     text-align: left;
+    max-width: 100%;
+    min-height: 90vh;
     @media (max-width: 900px) {
         height: 80vh;
         margin: 2vh auto;

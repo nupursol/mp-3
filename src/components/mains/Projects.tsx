@@ -8,7 +8,7 @@ const ProjectsContainer = styled.main`
     align-items: center;
     height: 85vh;
     @media (max-width: 900px) {
-        height: 80vh;
+        height: auto;
         margin: 2vh auto;
         padding: 10%;
         justify-content: center;

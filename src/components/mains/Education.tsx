@@ -9,10 +9,12 @@ const MainContainer = styled.main`
     display: flex;
     flex-direction: column;
     width:70%;
-    height: 83vh;
+    height: auto;
+    min-height: 90vh;
+    max-width: 100%;
+    justify-content: center;
     @media (max-width: 900px) {
         width: 100%;
-        height: 80vh;
     }
 `
 const MainBox = styled.div`
@@ -24,6 +26,9 @@ const MainBox = styled.div`
     border: 1px solid #4d2600;
     justify-content: center;
     text-align: left;
+    max-width: 100%;
+    height: auto;
+    min-height: 90vh;
     @media (max-width: 900px) {
         height: 100%;
         margin: 4vh auto;
