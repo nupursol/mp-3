@@ -7,6 +7,7 @@ const ProjectsContainer = styled.main`
     width: 70%;
     align-items: center;
     height: 85vh;
+    min-height: 85vh;
     @media (max-width: 900px) {
         height: auto;
         margin: 2vh auto;
